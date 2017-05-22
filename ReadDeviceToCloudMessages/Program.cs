@@ -11,7 +11,7 @@ namespace ReadDeviceToCloudMessages
 {
     class Program
     {
-        static string connectionString = "HostName=iotmissionbarton.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=6pXUF5ZcNwtZGtN6KA421o3KhVM9qN5HvGbBLrU8klU=";
+        static string connectionString = "HostName and Shared Access Key with =";
         static string iotHubD2cEndpoint = "messages/events";
         static EventHubClient eventHubClient;
         static void Main(string[] args)
