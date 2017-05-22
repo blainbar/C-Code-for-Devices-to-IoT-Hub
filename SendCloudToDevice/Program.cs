@@ -10,8 +10,7 @@ namespace SendCloudToDevice
     class Program
     {
         static ServiceClient serviceClient;
-        static string connectionString = "HostName=iotmissionbarton.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=6pXUF5ZcNwtZGtN6KA421o3KhVM9qN5HvGbBLrU8klU=";
-
+        static string connectionString = "HostName and SAS key with =";
         private async static void ReceiveFeedbackAsync()
         {
             var feedbackReceiver = serviceClient.GetFeedbackReceiver();
