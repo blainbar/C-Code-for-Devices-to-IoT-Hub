@@ -12,7 +12,7 @@ namespace CreateDeviceIdentity
     class Program
     {
         static RegistryManager registryManager;
-        static string connectionString = "HostName=iotmissionbarton.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=6pXUF5ZcNwtZGtN6KA421o3KhVM9qN5HvGbBLrU8klU=";
+        static string connectionString = "Hostname and SAS token with the =";
 
         static void Main(string[] args)
         {
